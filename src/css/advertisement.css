@@ -36,13 +36,13 @@
 
 @media only screen and (min-width: 768px) {
   .advr-container {
-    padding: 100px 32px;
+    padding: 100px 32px 112px 32px;
     height: 488px;
   }
 
   .advr-box {
     max-width: 704px;
-    min-height: 288px;
+    min-height: 276px;
   }
 
   .advr-backgr {
@@ -61,7 +61,7 @@
 
 @media only screen and (min-width: 1280px) {
   .advr-container {
-    padding: 100px;
+    padding: 100px 110px 100px 100px;
     height: 428px;
   }
 
