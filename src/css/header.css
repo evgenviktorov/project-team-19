@@ -1,0 +1,138 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 375px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.nav-menu-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.logo-icon,
+.logo-text {
+  fill: #fbfbfb;
+}
+
+.nav-menu-pc {
+  display: none;
+}
+
+.btn-menu {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.btn-menu-icon {
+  stroke: #fbfbfb;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+  }
+
+  .nav-menu {
+    margin: 32px;
+  }
+
+  .logo-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logo-text {
+    width: 188px;
+    height: 17px;
+  }
+
+  .nav-menu-logo {
+    gap: 8px;
+  }
+
+  .btn-menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    max-width: 1280px;
+  }
+
+  .nav-menu {
+    margin: 32px 100px;
+  }
+
+  .nav-menu-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 4px 0;
+  }
+
+  .nav-menu-link {
+    display: block;
+    border: 1px solid #fbfbfb;
+    border-radius: 12px;
+    padding: 12px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fbfbfb;
+  }
+
+  .btn-shop {
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 20px;
+
+    background-color: #7a3145;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 32px;
+    width: 157px;
+    height: 52px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+}
