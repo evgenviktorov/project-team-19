@@ -1,5 +1,6 @@
 .how-it-wrapper {
     max-width: 375px;
+    min-width: 320px;
     margin: 0 auto;
 }
 
