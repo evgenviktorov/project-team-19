@@ -1,9 +1,9 @@
 .your-order{
-    background: #576f35;
 }
 
 .container-your-order{
     padding: 80px 20px 80px 20px;
+    background: #576f35;
 }
 
 .order-div{
@@ -12,10 +12,9 @@
 }
 
 .order-fresh {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 48px;
-    line-height: 108%;
+    line-height: 1.08;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
@@ -26,10 +25,9 @@
 }
 
 .order-par {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 143%;
+    line-height: 1.43;
     color: #fbfbfb;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -50,10 +48,9 @@
 }
 
 .ordering-par{
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 28px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
@@ -91,33 +88,57 @@
     border-radius: 15px;
     height: 92px;
     margin-bottom: 20px;
+    resize: none;
+    overflow: hidden;
 }
 
 .form-text::placeholder,
 .form-name::placeholder,
 .form-email::placeholder {
     text-align: left;
-    font-family: "Inter Tight", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 143%;
+    line-height: 1.43;
     color: #141414;
 }
 
-.form-name:hover,
-.form-email:hover,
-.form-text:hover {
+.form-name:focus,
+.form-email:focus,
+.form-text:focus {
     border-color: #7a3145;
 }
 
-.form-name:valid:not(:placeholder-shown),
-.form-email:valid:not(:placeholder-shown) {
+.form-email:not(:placeholder-shown):valid {
     border-color: #3cbc81;
 }
 
-.form-name:invalid:not(:placeholder-shown),
-.form-email:invalid:not(:placeholder-shown) {
+.form-email:not(:placeholder-shown):valid {
     border-color: #e74a3b;
+}
+
+.form-email:not(:placeholder-shown):valid ~ .text-valid{
+    display: block;
+}
+
+.form-email:not(:placeholder-shown):invalid~.text-invalid {
+    display: block;
+}
+
+.text-valid,
+.text-invalid{
+    font-size: 12px;
+    padding-left: 16px;
+    margin-top: 1px;
+    display: none;
+    position: absolute;
+}
+
+.text-valid{
+    color: #3cbc81;
+}
+
+.text-invalid{
+    color: #e74a3b;
 }
 
 .ordering-form-batton {
@@ -133,10 +154,9 @@
 }
 
 .ordering-form-batton-a {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 18px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
@@ -174,10 +194,9 @@
 }
 
 .follow-par{
-    font-family: "Inter Tight", sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 143%;
+    line-height: 1.43;
     color: #d4bfc4;
     margin-bottom: 16px;
 }
@@ -202,10 +221,9 @@
 }
 
 .follow-a-lis{
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 18px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
@@ -229,10 +247,9 @@
     }
 
     .order-fresh{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 64px;
-        line-height: 100%;
+        line-height: 1.00;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #fbfbfb;
@@ -241,10 +258,9 @@
 
     .order-par{
         margin-bottom: 0;
-        font-family: "Inter Tight", sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 125%;
+        line-height: 1.25;
         color: #fbfbfb;
     }
 
@@ -257,10 +273,9 @@
     }
 
     .ordering-par{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 32px;
-        line-height: 100%;
+        line-height: 1.00;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #141414;
@@ -303,10 +318,9 @@
     }
 
     .ordering-form-batton{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 18px;
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #fbfbfb;
@@ -328,10 +342,9 @@
     }
 
     .follow-par{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 700;
         font-size: 16px;
-        line-height: 125%;
+        line-height: 1.25;
         color: #d4bfc4;
     }
 
@@ -357,14 +370,19 @@
 
 
     .follow-a-lis{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 18px;
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #fbfbfb;
     } 
+
+    .text-valid,
+    .text-invalid{
+        margin-top: -16px;
+        padding-left: 14px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -382,20 +400,18 @@
     }
 
     .order-fresh{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 64px;
-        line-height: 100%;
+        line-height: 1.00;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #fbfbfb;
     }
 
     .order-par{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 125%;
+        line-height: 1.25;
         color: #fbfbfb;
     }
 
@@ -413,10 +429,9 @@
     }
 
     .ordering-par{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 32px;
-        line-height: 100%;
+        line-height: 1;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #141414;
@@ -451,19 +466,19 @@
     
     .form-text {
         border-radius: 15px;
-        height: 92px !important;
-        padding: 16px 16px 16px 16px;
+        height: 92px;
     }
 
-    .ordering-form-batton:hover{
+    .ordering-form-batton:hover,
+    .ordering-form-batton:focus{
         background-color: #d4bfc4;
         color: #7a3145;
     }
 
-        .ordering-form-batton:active {
-            background: #fbfbfb;
-            color: #7a3145;
-        }
+    .ordering-form-batton:active {
+        background: #fbfbfb;
+        color: #7a3145;
+    }
 
     .follow {
         border-radius: 30px;
@@ -483,27 +498,19 @@
 
 
     .follow-par{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 700;
         font-size: 16px;
-        line-height: 125%;
+        line-height: 1.25;
         color: #d4bfc4;
     }
 
     .follow-a-lis{
-        font-family: "Inter Tight", sans-serif;
         font-weight: 600;
         font-size: 18px;
-        line-height: 111%;
+        line-height: 1.11;
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #fbfbfb;
     }
-
-
-
-
-
-
 }
 
