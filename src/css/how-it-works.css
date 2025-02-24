@@ -1,70 +1,31 @@
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-body {
-    font-family: 'Inter Tight', sans-serif;
-    color: #141414;
-    background-color: #ffffff;
-    margin: 0;
-}
-/*-------regionContainer----------*/
-.container {
-    min-width: 320px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.how-it-wrapper {
+    max-width: 375px;
     margin: 0 auto;
 }
-@media only screen and (min-width: 375px) {
-    .container {
-        max-width: 375px;
-    }
-}
-@media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-@media only screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
-}
-/*-----------endregionContainer-------*/
-.how-it-wrapper {
+
+.container-how-it-work {
     display: flex;
-    flex-direction: column;
-}
-.image-box{
-    background-color: #742b36;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 32px;
-}
-.mobile-img{
-    margin: 40px 0;
-    border-radius: 32px;
-}
-.how-it-works {
-    background-color:   #742b36;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
-.how-it-text{
-    background-color: #576F35;
+
+.mobile-img {
+    border-radius: 32px;
+    width: 100%;
+}
+
+.how-it-works {
+    background-color: #742b36;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.how-it-text {
+    background-color: #576f35;
+    width: 100%;
+    height: 100%;
+    padding: 80px 20px;
 }
 
 .text-order {
@@ -74,13 +35,12 @@ body {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    margin-top: 80px;
     margin-bottom: 20px;
-    width: 335px;
+    max-width: 335px;
 }
 
 .order-word {
-    color: #D4BFC4;
+    color: #d4bfc4;
 }
 
 .baskets {
@@ -90,6 +50,7 @@ body {
     color: #fdfdfd;
     margin-bottom: 40px;
     width: 335px;
+    width: 100%;
 }
 
 .step-list {
@@ -99,7 +60,8 @@ body {
     color: #acacac;
     background-color: #fff;
     border-radius: 15px;
-    width: 335px;
+    width:335px;
+    width: 100%;
     align-content: center;
     min-height: 76px;
     position: relative;
@@ -120,7 +82,6 @@ body {
     flex-direction: column;
     gap: 20px;
     padding-left: 0;
-    margin-bottom: 80px;
 }
 
 .buy-list li::before {
@@ -141,65 +102,79 @@ body {
     transform: translateY(-50%);
     top: 50%;
     box-shadow: 0 0 0 6px rgba(116, 43, 54, 0.5);
-    ;
 }
-@media only screen and (min-width: 768px){
-    .baskets{
+
+@media only screen and (min-width: 768px) {
+    .how-it-wrapper {
+        max-width: 768px;
+    }
+
+    .how-it-works {
+        padding: 100px 64px;
+    }
+
+    .how-it-text {
+        padding: 100px 164px;
+    }
+
+    .baskets {
         width: 440px;
         margin-bottom: 52px;
         gap: 24px;
         font-size: 16px;
         line-height: 125%;
     }
-    .text-order{
+
+    .text-order {
         font-size: 32px;
-        margin-top: 100px;
+        max-width: 440px;
     }
+
     .mobile-img {
         width: 640px;
         height: 640px;
-        object-fit: cover;
-        margin-top: 100px;
-        margin-bottom: 100px;
     }
+
     .text-order {
-        width: 440px;
+        max-width: 440px;
         margin-bottom: 24px;
     }
-    .step-list{
+
+    .step-list {
         width: 440px;
     }
-    .buy-list{
-        margin-bottom: 100px;
-    }
-    .text-order{
-        margin-top: 100px;
+
+    .buy-list {
+        gap: 24px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .how-it-wrapper {
-        flex-direction: row;
-        justify-content: center;
+        max-width: 1280px;
     }
-    .baskets{
+
+    .container-how-it-work {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .baskets {
         margin-bottom: 104px;
     }
-    .mobile-img{
-        width: 440px;
-        height: 550px;
-        margin: 100px auto;
+
+    .mobile-img {
+        max-width: 440px;
+        height: 560px;
     }
-    .how-it-works,
-    .how-it-text {
-        width: 50%;
-    }
+
     .how-it-works {
-        display: flex;
-        justify-content: center;
+        width: 640px;
+        padding: 100px;
     }
+
     .how-it-text {
-        display: flex;
-        flex-direction: column;
+        width: 640px;
+        padding: 100px;
     }
 }
