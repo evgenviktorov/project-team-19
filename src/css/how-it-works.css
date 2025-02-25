@@ -71,6 +71,9 @@
 .step-text {
     color: #141414;
 }
+.step-list:nth-child(2) {
+    padding-right: 59px;
+}
 
 .buy-list {
     list-style: none;
