@@ -1,13 +1,10 @@
-.how-it-wrapper {
-    max-width: 375px;
-    min-width: 320px;
-    margin: 0 auto;
-}
-
 .container-how-it-work {
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 375px;
+    min-width: 320px;
+    margin: 0 auto;
 }
 
 .mobile-img {
@@ -32,7 +29,7 @@
 .text-order {
     font-weight: 600;
     font-size: 28px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
@@ -47,17 +44,16 @@
 .baskets {
     font-weight: 500;
     font-size: 14px;
-    line-height: 143%;
+    line-height: 1.43;
     color: #fdfdfd;
     margin-bottom: 40px;
-    width: 335px;
     width: 100%;
 }
 
 .step-list {
     font-weight: 500;
     font-size: 14px;
-    line-height: 143%;
+    line-height: 1.43;
     color: #acacac;
     background-color: #fff;
     border-radius: 15px;
@@ -99,17 +95,16 @@
     justify-content: center;
     border-radius: 50%;
     position: absolute;
-    left: 24px;
+    left: 29px;
     transform: translateY(-50%);
     top: 50%;
-    box-shadow: 0 0 0 6px rgba(116, 43, 54, 0.5);
+    box-shadow: 0 0 0 5px rgba(116, 43, 54, 0.5);
 }
 
 @media only screen and (min-width: 768px) {
-    .how-it-wrapper {
+    .container-how-it-work{
         max-width: 768px;
     }
-
     .how-it-works {
         padding: 100px 64px;
     }
@@ -123,12 +118,13 @@
         margin-bottom: 52px;
         gap: 24px;
         font-size: 16px;
-        line-height: 125%;
+        line-height: 1.25;
     }
 
     .text-order {
         font-size: 32px;
         max-width: 440px;
+        margin-bottom: 24px;
     }
 
     .mobile-img {
@@ -136,12 +132,8 @@
         height: 640px;
     }
 
-    .text-order {
-        max-width: 440px;
-        margin-bottom: 24px;
-    }
-
     .step-list {
+        font-size: 16px;
         width: 440px;
     }
 
@@ -151,11 +143,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .how-it-wrapper {
-        max-width: 1280px;
-    }
 
     .container-how-it-work {
+        max-width: 1280px;
         align-items: center;
         flex-direction: row;
     }
