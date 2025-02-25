@@ -2,19 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 .header-container {
   width: 100%;
   max-width: 375px;
+  min-width: 320px;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .nav-menu {
