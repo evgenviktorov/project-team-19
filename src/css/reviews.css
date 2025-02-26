@@ -1,0 +1,133 @@
+
+.container-reviews{
+    padding: 80px 20px;
+    background-color: #fbfbfb;
+}
+.reviews-title{
+    margin-bottom: 40px;
+}
+
+.reviews-head{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.color-head{
+    color: #576f35;
+}
+
+
+.reviews-comment{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #141414;
+    
+}
+
+.reviews-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    column-gap: 24px;
+}
+.reviews-item{
+    border: 1px solid #d4bfc4;
+    border-radius: 24px;
+    padding: 20px 23px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+.reviews-img {
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.review-name {
+font-weight: 600;
+font-size: 18px;
+line-height: 1.11;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+text-align: center;
+color: #141414;
+margin-bottom: 8px;
+}
+.reviews-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.43;
+text-align: center;
+color: #858585;
+}
+
+.non-reviews-2 {
+    display: none;
+} 
+.non-reviews-3{
+    display: none;
+}
+ 
+@media screen and (min-width: 768px) {
+
+    .container-reviews{ 
+        max-width: 768px;
+        padding: 100px 32px;
+    }
+    .reviews-head{
+        margin-bottom: 24px;
+        font-size: 64px;
+        line-height: 1;
+    }
+    .reviews-title{
+        max-width: 553px;
+        max-height: 192px;
+        margin-bottom: 52px;
+    }
+    .reviews-text {
+        line-height: 1.25;
+        font-size: 16px;
+      }
+    .reviews-comment{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .reviews-item{
+        max-width: 340px;
+        padding: 20px 26px;
+        
+    }
+   
+    .reviews-list {
+        flex-direction: row;
+        padding: 0;
+        column-gap: 24px;
+    }
+    .non-reviews-2{
+        display: initial;
+    }
+  
+ }
+ @media screen and (min-width: 1280px) {
+
+        .container-reviews{
+            max-width: 1280px;
+            padding: 100px;
+            
+        } 
+        .reviews-item {
+            max-width: 344px;
+            padding: 20px 28px;
+          }
+          .non-reviews-3{
+            display: initial;
+        }
+    
+}  
