@@ -1,0 +1,85 @@
+.advr-container {
+  padding: 80px 20px;
+  background: #fbfbfb;
+  position: relative;
+}
+
+.advr-box {
+  max-width: 335px;
+  min-height: 312px;
+}
+
+.advr-backgr {
+  position: relative;
+  background-color: #576f35;
+  border-radius: 12px;
+  height: 102px;
+}
+
+.advr-text {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  right: 20px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  max-width: 335px;
+}
+
+.advr-text-decor {
+  color: #141414;
+}
+
+@media only screen and (min-width: 768px) {
+  .advr-container {
+    padding: 100px 32px 112px 32px;
+    height: 488px;
+  }
+
+  .advr-box {
+    max-width: 704px;
+    min-height: 276px;
+  }
+
+  .advr-backgr {
+    height: 86px;
+    width: 675px;
+  }
+
+  .advr-text {
+    top: 120px;
+    left: 32px;
+    font-size: 64px;
+    line-height: 1;
+    max-width: 704px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advr-container {
+    padding: 100px 110px 100px 100px;
+    height: 428px;
+  }
+
+  .advr-box {
+    max-width: 1080px;
+    min-height: 228px;
+  }
+
+  .advr-backgr {
+    height: 84px;
+    width: 808px;
+    margin-top: -4px;
+  }
+
+  .advr-text {
+    top: 100px;
+    left: 116px;
+    font-size: 76px;
+    max-width: 1054px;
+  }
+}
