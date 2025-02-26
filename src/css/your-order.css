@@ -1,10 +1,9 @@
-
-.container-your-order{
+.container-your-order {
     padding: 80px 20px 80px 20px;
     background: #576f35;
 }
 
-.order-div{
+.order-div {
     max-width: 335px;
     padding: 0;
 }
@@ -18,7 +17,7 @@
     color: #fbfbfb;
 }
 
-.order-fresh-span{
+.order-fresh-span {
     color: #d4bfc4;
 }
 
@@ -45,7 +44,7 @@
     margin-bottom: 20px;
 }
 
-.ordering-par{
+.ordering-par {
     font-weight: 600;
     font-size: 28px;
     line-height: 1;
@@ -59,11 +58,11 @@
     color: #7a3145;
 }
 
-.ordering-par-span-two{
+.ordering-par-span-two {
     color: #576f35;
 }
 
-.form-input{
+.form-input {
     margin-bottom: 16px;
 }
 
@@ -73,7 +72,7 @@
     display: flex;
     border: 1px solid #858585;
     border-radius: 30px;
-    padding: 14px 16px 14px 16px ;
+    padding: 14px 16px 14px 16px;
     width: 100%;
     max-width: 295px;
     height: 48px;
@@ -114,7 +113,7 @@
     border-color: #e74a3b;
 }
 
-.form-email:not(:placeholder-shown):valid ~ .text-valid{
+.form-email:not(:placeholder-shown):valid~.text-valid {
     display: block;
 }
 
@@ -123,7 +122,7 @@
 }
 
 .text-valid,
-.text-invalid{
+.text-invalid {
     font-size: 12px;
     padding-left: 16px;
     margin-top: 1px;
@@ -131,11 +130,11 @@
     position: absolute;
 }
 
-.text-valid{
+.text-valid {
     color: #3cbc81;
 }
 
-.text-invalid{
+.text-invalid {
     color: #e74a3b;
 }
 
@@ -148,15 +147,15 @@
     color: #fbfbfb;
     border-radius: 30px;
     padding: 16px;
-    min-width: 100%;
+    width: 100%;
     height: 52px;
     background: #7a3145;
     border: none;
     transition: 0.3s, color 0.3s;
 }
 
-.ordering-form-batton:focus,
-.ordering-form-batton:hover{
+.ordering-form-batton:hover,
+.ordering-form-batton:focus {
     background-color: #d4bfc4;
     color: #7a3145;
 }
@@ -165,7 +164,7 @@
 ============================================
 ------------------------------------------*/
 
-.follow{
+.follow {
     border-radius: 30px;
     padding: 40px 20px;
     max-width: 335px;
@@ -173,16 +172,16 @@
     background: #7a3145;
 }
 
-.follow-img{
+.follow-img {
     border-radius: 15px;
 }
 
-.follow-div{
+.follow-div {
     margin-top: 20px;
     overflow: hidden;
 }
 
-.follow-par{
+.follow-par {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.43;
@@ -190,7 +189,7 @@
     margin-bottom: 16px;
 }
 
-.follow-uls{
+.follow-uls {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -198,17 +197,17 @@
     max-width: 295px;
 }
 
-.follow-lis{
+.follow-lis {
     display: flex;
 }
 
 .follow-lis:not(:last-child)::after {
-    content: " / ";
+    content: ' / ';
     color: #fbfbfb;
     margin-left: 10px;
 }
 
-.follow-a-lis{
+.follow-a-lis {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.11;
@@ -222,32 +221,31 @@
 ------------------------------------------*/
 
 @media screen and (min-width: 768px) {
-    .container-your-order{
+    .container-your-order {
         padding: 100px 32px 100px 32px;
         width: 768px;
         height: 1720px;
     }
 
-    .order-div{
+    .order-div {
         max-width: 640px;
         height: 276px;
         margin-bottom: 52px;
     }
 
-    .order-fresh{
+    .order-fresh {
         font-size: 64px;
-        line-height: 1.00;
+        line-height: 1;
     }
 
-
-    .order-par{
+    .order-par {
         margin-top: 24px;
         margin-bottom: 0;
         font-size: 16px;
         line-height: 1.25;
     }
 
-    .ordering{
+    .ordering {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 32px;
@@ -256,21 +254,20 @@
         height: 632px;
     }
 
-    .ordering-par{
+    .ordering-par {
         font-size: 32px;
         margin-bottom: 52px;
     }
 
-    .form-input{
+    .form-input {
         width: 440px;
         height: 52px;
     }
 
-    .form-input-text{
+    .form-input-text {
         width: 440px;
         height: 96px;
         margin-bottom: 24px;
-
     }
 
     .form-name,
@@ -278,18 +275,18 @@
     .form-text {
         display: flex;
         padding: 16px 14px 16px 14px;
-        min-width: 100%;
+        width: 100%;
         max-width: 440px;
         height: 52px;
-        margin-bottom: 16px;
 
+        margin-bottom: 16px;
     }
 
     .form-text {
         height: 92px;
     }
 
-    .follow{
+    .follow {
         margin-left: auto;
         margin-right: auto;
         padding: 52px;
@@ -297,13 +294,13 @@
         height: 528px;
     }
 
-    .follow-img{
+    .follow-img {
         width: 536px;
         height: 316px;
         margin-bottom: 52px;
     }
 
-    .follow-par{
+    .follow-par {
         font-size: 16px;
         line-height: 1.25;
     }
@@ -313,51 +310,44 @@
         display: flex;
         flex-wrap: wrap;
         gap: 12px;
+        min-width: calc(100%);
         max-width: 295px;
     }
-    
+
     .follow-lis:not(:last-child)::after {
         margin-left: 12px;
     }
 
     .text-valid,
-    .text-invalid{
+    .text-invalid {
         margin-top: -16px;
         padding-left: 14px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-
     .container-your-order {
         padding: 100px;
         width: 1280px;
         height: 1036px;
     }
 
-    .order-div{
+    .order-div {
         max-width: 751px;
         height: 192px;
     }
 
-    .order-fresh{
+    .order-fresh {
         font-size: 64px;
     }
 
-    .order-par{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.25;
-        color: #fbfbfb;
-    }
-
-    .ordering-and-follow-div{
+    .ordering-and-follow-div {
         display: flex;
     }
 
-    .ordering{
+    .ordering {
         padding: 52px 48px 52px 48px;
-        max-width:524px;
+        max-width: 524px;
         height: 592px;
         margin-left: 0;
         margin-bottom: 52px;
@@ -367,19 +357,19 @@
         width: 440px;
         height: 52px;
     }
-    
+
     .form-input-text {
         width: 440px;
         height: 96px;
         margin-bottom: 24px;
     }
-    
+
     .form-name,
     .form-email,
     .form-text {
         max-width: 428px;
     }
-    
+
     .form-text {
         height: 92px;
     }
@@ -391,7 +381,7 @@
         margin-left: 32px;
     }
 
-    .follow-img{
+    .follow-img {
         width: 428px;
         height: 352px;
         margin-bottom: 80px;
