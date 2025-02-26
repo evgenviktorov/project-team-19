@@ -37,7 +37,6 @@
 .ordering {
   border-radius: 30px;
   padding: 40px 20px;
-  min-width: calc(100%-40px);
   max-width: 335px;
   height: 552px;
   background: #fbfbfb;
