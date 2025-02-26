@@ -1,123 +1,123 @@
 .vegetables-container {
-    background: #7a3145;
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 80px;
-    align-items: center;
+  background: #7a3145;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  align-items: center;
 }
 .vegetables-header {
-max-width: 335px;
+  max-width: 335px;
 }
 .organic-vegetables {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.08;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .organic {
-    color: #fbfbfb;
+  color: #fbfbfb;
 }
 .veg {
-    color: #d4bfc4;
+  color: #d4bfc4;
 }
 .description {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #fbfbfb;
-    margin-top: 20px;
-    margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fbfbfb;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .product-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .product {
-    max-width: 335px;
-    height: 376px;
-    border-radius: 40px;
-    padding: 32px 24px;
-    background: #fbfbfb;
+  max-width: 335px;
+  height: 376px;
+  border-radius: 40px;
+  padding: 32px 24px;
+  background: #fbfbfb;
 }
 .product-name {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #7a3145;
-    margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
+  margin-bottom: 12px;
 }
 .price {
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.43;
-   color: #141414;
-   margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
+  margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
-    .vegetables-container {
+  .vegetables-container {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 32px;
-    padding-right: 32px;}
+    padding-right: 32px;
+  }
 
-.vegetables-header 
- {
-   max-width: 626px;
- }
+  .vegetables-header {
+    max-width: 626px;
+  }
 
-.organic-vegetables {
-  font-size: 64px;
-  line-height: 1; 
-}
-.description {
-  font-size: 16px;
-  line-height: 1.25;
-  margin-top: 24px;
-  margin-bottom: 52px;
-}
-.product-list {
+  .organic-vegetables {
+    font-size: 64px;
+    line-height: 1;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 24px;
+    margin-bottom: 52px;
+  }
+  .product-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 24px;
     row-gap: 28px;
-}
-.product {
+  }
+  .product {
     padding: 32px 30px;
     max-width: none;
     width: calc((100% - 24px) / 2);
     height: 380px;
-}
-.product-name {
-  font-size: 32px;
-}
-.price {
-  font-size: 16px;
-  line-height: 1.25;
-}
+  }
+  .product-name {
+    font-size: 32px;
+  }
+  .price {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 @media screen and (min-width: 1280px) {
-.vegetables-container {
-  padding-left: 100px;
-  padding-right: 100px;
-}
+  .vegetables-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 
-.product {
-  padding: 32px 32px;
-  width: calc((100% - 48px) / 3);
- }
+  .product {
+    padding: 32px 32px;
+    width: calc((100% - 48px) / 3);
+  }
 }
 .price {
   margin-bottom: 8px;
