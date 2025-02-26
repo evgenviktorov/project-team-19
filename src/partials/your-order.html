@@ -1,1 +1,78 @@
-<section>Your order</section>
+<section class="your-order" id="your-order">
+    <div class=" container container-your-order">
+
+
+        <div class="order-div">
+            <h2 class="order-fresh">Fresh <span class="order-fresh-span"> Harvest </span> Box has got you covered</h2>
+            <p class="order-par">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking
+                to eat healthier or
+                support local farmers. Order your box today and start enjoying the best that nature has to offer!
+            </p>
+        </div>
+
+
+        <div class="ordering-and-follow-div">
+            <div class="ordering">
+                <p class="ordering-par">Ordering <span class="ordering-par-span-one"> from us </span> is quick and easy! Fill
+                    out <span class="ordering-par-span-two"> the form </span>
+                    below and we will contact you !
+                </p>
+                <form class="ordering-form">
+            
+                    <div class="form-input">
+                        <input type="text" class="form-name" name="user-name" id="user-name" placeholder="Full Name" required ;>
+                    </div>
+            
+                    <div class="form-input">
+                        <input type="email" class="form-email" name="user-email" id="user-email" placeholder="Email" required
+                            pattern="([A-Za-z0-9_-.]{1,})@([A-Za-z]{1,}).([A-Za-z]{1,})">
+                        <p class="text-valid">Succes!</p>
+                        <p class="text-invalid">Invalid email, try again</p>
+                    </div>
+            
+                    <div class="form-input-text">
+                        <textarea type="text" class="form-text" name="user-comment" id="user-comment"
+                            placeholder="Comment"></textarea>
+                    </div>
+            
+                    <button class="ordering-form-batton" type="submit">
+                        Send
+                    </button>
+                </form>
+            </div>
+            
+            
+            <div class="follow">
+                <picture>
+                    <source srcset="/img/your-order/your-order-desktop.webp, /img/your-order/your-order-desktop@2x.webp 2x"
+                        media="(min-width: 1280px)">
+                    <source srcset="/img/your-order/your-order-tablet.webp, /img/your-order/your-order-tablet@2x.webp 2x"
+                         media="(min-width: 768px)">
+                    <source srcret="/img/your-order/your-order-mobile.webp, /img/your-order/your-order-mobile@2x.webp" media="max-widht:767.97px">
+                    <img class="follow-img" src="/img/your-order/your-order-mobile.webp" srcset="/img/your-order/your-order-mobile@2x.webp"
+                        alt="Fresh fruits for a smoothie: lemon, apples, banana in a blender">
+                </picture>
+
+                <div class="follow-div">
+                    <p class="follow-par">Follow us on our social networks:</p>
+                    <ul class="follow-uls">
+                        <li class="follow-lis">
+                            <a class="follow-a-lis" href="https://www.instagram.com/goitclub/" target="_blank"
+                                rel="noopener noreferrer">instagram</a>
+                        </li>
+                        <li class="follow-lis">
+                            <a class="follow-a-lis" href="https://www.facebook.com/goITclub/" target="_blank"
+                                rel="noopener noreferrer">facebook</a>
+                        </li>
+                        <li class="follow-lis">
+                            <a class="follow-a-lis" href="https://www.youtube.com/c/GoIT" target="_blank"
+                                rel="noopener noreferrer">youtube</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
