@@ -1,4 +1,4 @@
-# project-team-19
+# FastPixel (developer team)
 
 - Євген Ткаченко (teamlead) (GitHub -
   [evgenviktorov](https://github.com/evgenviktorov)) - розгортання проєкту,
