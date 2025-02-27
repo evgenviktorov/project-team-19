@@ -1,13 +1,17 @@
+.vegetables {
+  background-color: #7a3145;
+  padding: 80px 0;
+  min-width: 320px;
+}
+
 .vegetables-container {
-  background: #7a3145;
-  padding-top: 80px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 80px;
   align-items: center;
 }
 .vegetables-header {
   max-width: 335px;
+  margin-bottom: 40px;
 }
 .organic-vegetables {
   font-weight: 600;
@@ -19,6 +23,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 .organic {
   color: #fbfbfb;
@@ -31,8 +36,6 @@
   font-size: 14px;
   line-height: 1.43;
   color: #fbfbfb;
-  margin-top: 20px;
-  margin-bottom: 40px;
 }
 .product-list {
   list-style: none;
@@ -65,27 +68,31 @@
   margin-bottom: 12px;
 }
 @media screen and (min-width: 768px) {
+  .vegetables {
+    padding: 100px 0;
+  }
+
   .vegetables-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
     padding-left: 32px;
     padding-right: 32px;
   }
 
   .vegetables-header {
     max-width: 626px;
+    margin-bottom: 52px;
   }
 
   .organic-vegetables {
     font-size: 64px;
     line-height: 1;
+    margin-bottom: 24px;
   }
+
   .description {
     font-size: 16px;
     line-height: 1.25;
-    margin-top: 24px;
-    margin-bottom: 52px;
   }
+
   .product-list {
     display: flex;
     flex-direction: row;

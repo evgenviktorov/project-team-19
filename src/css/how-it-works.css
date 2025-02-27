@@ -1,3 +1,9 @@
+.how-it-wrapper {
+  background-color: #576f35;
+  display: flex;
+  min-width: 320px;
+}
+
 .container-how-it-work {
   display: flex;
   align-items: center;
@@ -9,7 +15,7 @@
 
 .mobile-img {
   border-radius: 32px;
-  width: 100%;
+  width: 335px;
 }
 
 .how-it-works {
@@ -157,7 +163,7 @@
   }
 
   .mobile-img {
-    max-width: 440px;
+    width: 440px;
     height: 560px;
   }
 
