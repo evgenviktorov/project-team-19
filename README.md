@@ -7,8 +7,8 @@
 - Наталія Заремба (scrum master) - (GitHub - nataliia-zaremba) - розробка секції
   Vegetables (vegetables), планування зустрічей, підготовка презентації.
 
-- Вʼячеслав Далакішвілі (developer) - (GitHub - ViacheslavDl) - розробка секції
-  Header (header)
+- Вʼячеслав Далакішвілі (developer) - (GitHub - [ViacheslavDl]
+  (https://github.com/ViacheslavDl)) - розробка секції Header (header)
 
 - Владислав Поліщук (developer) - (GitHub - Vladislav-Polishchuk) - розробка
   секції Hero (hero)
