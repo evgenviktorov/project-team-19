@@ -1,32 +1,32 @@
 # project-team-19
 
-- Header (header)
-- Hero (hero)
-- How it works (how-it-works)
-- Advertisement (advertisement)
-- Vegetables (vegetables)
-- Reviews (reviews)
-- Your order (your-order)
-- Footer (footer)
+- Євген Ткаченко (teamlead) (GitHub - evgenviktorov) - розгортання проєкту,
+  підготовка зображень, додавання і налаштування js для мобільного меню,
+  тестування.
 
-- Mob Menu (mob-menu)
+- Наталія Заремба (scrum master) - (GitHub - nataliia-zaremba) - розробка секції
+  Vegetables (vegetables), планування зустрічей, підготовка презентації.
 
-## Підготовка до роботи
+- Вʼячеслав Далакішвілі (developer) - (GitHub - ViacheslavDl) - розробка секції
+  Header (header)
 
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
+- Владислав Поліщук (developer) - (GitHub - Vladislav-Polishchuk) - розробка
+  секції Hero (hero)
 
-## Команди git для роботи в команді
+- Олександр Ткаченко (developer) - (GitHub - OleksandrT434) - розробка секції
+  How it works (how-it-works)
 
-1. git switch -c "branch_name" - створення нової гілки з переходом в неї
-2. git switch "branch_name" - зміна гілки (перехід в іншу гілку)
-3. git branch -d "branch_name" - видалення локальної гілки
-4. git branch - перевірка гілок.
-5. git pull - стягнути зміни з гітхабу
-6. git merge "branch_name" - злити зміни з гілки branch_name в поточну гілку в
-   якій знаходитесь.
+- Дарина Дядюк (developer) - (GitHub - DarynaD11) - розробка секції
+  Advertisement (advertisement)
+
+- Олена Шевель (developer) - (GitHub - AlenaSh83) - розробка секції Reviews
+  (reviews)
+
+- Герман Єжела (developer) - (GitHub - Herman-Yezhela) - розробка секції Your
+  order (your-order)
+
+- Іннеса Суходольська (developer) - (GitHub - Suhodolska) - розробка секції
+  Footer (footer)
+
+- Віктор Локтіонов (developer) - (GitHub - Viktoronly) - розробка мобільного
+  меню Mob Menu (mob-menu)
