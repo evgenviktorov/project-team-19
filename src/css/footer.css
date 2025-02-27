@@ -68,6 +68,14 @@
   color: #fbfbfb;
 }
 
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  padding: 3px;
+  background-color: #fbfbfb;
+  color: #7a3145;
+  border-radius: 10px;
+}
+
 .footer-address {
   display: flex;
   flex-direction: column;
@@ -82,6 +90,14 @@
   color: #fbfbfb;
 }
 
+.address-link:hover,
+.address-link:focus {
+  padding: 1px;
+  background-color: #fbfbfb;
+  color: #7a3145;
+  border-radius: 5px;
+}
+
 .address-text {
   font-weight: 700;
   font-style: normal;
@@ -89,6 +105,14 @@
   line-height: 1.43;
   color: #fbfbfb;
   max-width: 179px;
+}
+
+.address-text:hover,
+.address-text:focus {
+  padding: 1px;
+  background-color: #fbfbfb;
+  color: #7a3145;
+  border-radius: 5px;
 }
 
 .footer-privacy-policy {

@@ -25,6 +25,13 @@
   justify-content: flex-start;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 374.97px) {
+  .organic-vegetables {
+    font-size: 43px;
+  }
+}
+
 .organic {
   color: #fbfbfb;
 }
