@@ -1,3 +1,8 @@
+.how-it-wrapper {
+  background-color: #742b36;
+  display: flex;
+}
+
 .container-how-it-work {
   display: flex;
   align-items: center;

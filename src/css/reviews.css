@@ -1,6 +1,9 @@
+.reviews {
+  background-color: #fbfbfb;
+}
+
 .container-reviews {
   padding: 80px 20px;
-  background-color: #fbfbfb;
 }
 .reviews-title {
   margin-bottom: 40px;

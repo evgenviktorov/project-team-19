@@ -1,6 +1,10 @@
+.advertisement {
+  background: #fbfbfb;
+}
+
 .advr-container {
   padding: 80px 20px;
-  background: #fbfbfb;
+  /* background: #fbfbfb; */
   position: relative;
 }
 

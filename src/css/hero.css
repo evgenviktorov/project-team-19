@@ -1,7 +1,10 @@
 /* Мобільна версія */
 
+.hero {
+  background-color: #576f35;
+}
+
 .hero-comtainer {
-  background: #576f35;
   max-width: 375px;
   padding: 100px 0px 0px 0px;
   display: flex;
