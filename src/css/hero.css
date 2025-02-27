@@ -1,7 +1,6 @@
-/* Мобільна версія */
-
 .hero {
   background-color: #576f35;
+  min-width: 320px;
 }
 
 .hero-comtainer {

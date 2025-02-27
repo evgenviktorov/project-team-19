@@ -1,14 +1,17 @@
 .your-order {
   background-color: #576f35;
+  padding: 80px 0;
+  min-width: 320px;
 }
 
 .container-your-order {
-  padding: 80px 20px 80px 20px;
+  padding: 0 20px;
 }
 
 .order-div {
   max-width: 335px;
   padding: 0;
+  margin-bottom: 40px;
 }
 
 .order-fresh {
@@ -18,6 +21,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 .order-fresh-span {
@@ -29,8 +33,6 @@
   font-size: 14px;
   line-height: 1.43;
   color: #fbfbfb;
-  margin-bottom: 40px;
-  margin-top: 20px;
 }
 
 /*------------------------------------------
@@ -77,7 +79,6 @@
   padding: 14px 16px 14px 16px;
   width: 100%;
   max-width: 295px;
-  height: 48px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
@@ -85,10 +86,10 @@
 
 .form-text {
   border-radius: 15px;
-  height: 92px;
-  margin-bottom: 20px;
+  height: 96px;
   resize: none;
   overflow: hidden;
+  padding: 16px 16px 16px 16px;
 }
 
 .form-text::placeholder,
@@ -154,6 +155,7 @@
   background: #7a3145;
   border: none;
   transition: 0.3s, color 0.3s;
+  margin-top: 20px;
 }
 
 .ordering-form-batton:hover,
@@ -176,10 +178,10 @@
 
 .follow-img {
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .follow-div {
-  margin-top: 20px;
   overflow: hidden;
 }
 
@@ -218,15 +220,27 @@
   color: #fbfbfb;
 }
 
+.follow-a-lis:hover,
+.follow-a-lis:focus {
+  color: #fff;
+}
+
 /*------------------------------------------
 ============================================
 ------------------------------------------*/
 
 @media screen and (min-width: 768px) {
+  .your-order {
+    padding: 100px 0;
+  }
+
   .container-your-order {
-    padding: 100px 32px 100px 32px;
+    padding: 0 32px;
     width: 768px;
-    height: 1720px;
+  }
+
+  .ordering-form-batton {
+    margin-top: 24px;
   }
 
   .order-div {
@@ -250,10 +264,10 @@
   .ordering {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 32px;
     padding: 72px 100px 72px 100px;
     max-width: 640px;
     height: 632px;
+    margin-bottom: 24px;
   }
 
   .ordering-par {
@@ -268,8 +282,6 @@
 
   .form-input-text {
     width: 440px;
-    height: 96px;
-    margin-bottom: 24px;
   }
 
   .form-name,
@@ -285,7 +297,8 @@
   }
 
   .form-text {
-    height: 92px;
+    height: 96px;
+    margin-bottom: 0;
   }
 
   .follow {
@@ -328,10 +341,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .your-order {
+    padding: 100px 0;
+  }
+
   .container-your-order {
-    padding: 100px;
+    padding: 0 100px;
     width: 1280px;
-    height: 1036px;
   }
 
   .order-div {
@@ -352,7 +368,7 @@
     max-width: 524px;
     height: 592px;
     margin-left: 0;
-    margin-bottom: 52px;
+    margin-bottom: 0;
   }
 
   .form-input {
@@ -363,17 +379,12 @@
   .form-input-text {
     width: 440px;
     height: 96px;
-    margin-bottom: 24px;
   }
 
   .form-name,
   .form-email,
   .form-text {
     max-width: 428px;
-  }
-
-  .form-text {
-    height: 92px;
   }
 
   .follow {

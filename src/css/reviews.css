@@ -1,9 +1,11 @@
 .reviews {
   background-color: #fbfbfb;
+  padding: 80px 0;
+  min-width: 320px;
 }
 
 .container-reviews {
-  padding: 80px 20px;
+  padding: 0 20px;
 }
 .reviews-title {
   margin-bottom: 40px;
@@ -76,9 +78,15 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reviews {
+    background-color: #fbfbfb;
+    padding: 100px 0;
+    min-width: 768px;
+  }
+
   .container-reviews {
     max-width: 768px;
-    padding: 100px 32px;
+    padding: 0 32px;
   }
   .reviews-head {
     margin-bottom: 24px;
@@ -113,9 +121,14 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .reviews {
+    padding: 100px 0;
+    min-width: 1280px;
+  }
+
   .container-reviews {
     max-width: 1280px;
-    padding: 100px;
+    padding: 0 100px;
   }
   .reviews-item {
     max-width: 344px;
