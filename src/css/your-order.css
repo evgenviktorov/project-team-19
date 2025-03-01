@@ -234,10 +234,7 @@
 
 .follow-a-lis:hover,
 .follow-a-lis:focus {
-  padding: 1px;
-  background-color: #fbfbfb;
-  color: #7a3145;
-  border-radius: 5px;
+  color: #576f35;
 }
 
 /*------------------------------------------

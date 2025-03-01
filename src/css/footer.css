@@ -70,10 +70,7 @@
 
 .footer-menu-link:hover,
 .footer-menu-link:focus {
-  padding: 3px;
-  background-color: #fbfbfb;
-  color: #7a3145;
-  border-radius: 10px;
+  color: #576f35;
 }
 
 .footer-address {
@@ -92,10 +89,7 @@
 
 .address-link:hover,
 .address-link:focus {
-  padding: 1px;
-  background-color: #fbfbfb;
-  color: #7a3145;
-  border-radius: 5px;
+  color: #576f35;
 }
 
 .address-text {
@@ -109,10 +103,7 @@
 
 .address-text:hover,
 .address-text:focus {
-  padding: 1px;
-  background-color: #fbfbfb;
-  color: #7a3145;
-  border-radius: 5px;
+  color: #576f35;
 }
 
 .footer-privacy-policy {
